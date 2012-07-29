@@ -40,7 +40,7 @@
                   </div>
                </section>
                <div class="demo">
-                  <video controls width="100%" preload="none" poster="http://i.higg.in/video/toolset.projects.jpg">
+                  <video controls width="100%" preload="none" poster="http://i.higg.in/video/wwc.jpg">
 <source src="http://i.higg.in/video/wwc.mp4" type="video/mp4">
 <source src="http://i.higg.in/video/wwc.webm" type="video/webm">
 <source src="http://i.higg.in/video/wwc.ogv" type="video/ogg">
@@ -82,6 +82,14 @@
                </p>
                <div class="boxes">
                   <p>
+                  <div id="b0" class="box"></div>
+                  <br />
+                  <div id="b9" class="box"></div>
+                  <br />
+                  <div id="b10" class="box"></div>
+                  <br />
+                  <div id="b11" class="box"></div>
+                  <br />
                   <div id="b8" class="box"></div>
                   <br />
                   <div id="b1" class="box"></div>
@@ -119,6 +127,43 @@
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
       <script src="jquery.addsocial.js"></script>
       <script>
+      
+     twttr.anywhere(function (T) {
+             T("#b11").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@andymckay @morgamic @wselman @briandils We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @andymckay, @morgamic, @wselman, and @briandils a Tweet!",
+             });
+         });
+      
+     twttr.anywhere(function (T) {
+             T("#b10").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@b_c_g @madhava @MitchellBaker We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @b_c_g, @madhava, and @MitchellBaker a Tweet!",
+             });
+         });
+      
+         twttr.anywhere(function (T) {
+             T("#b9").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@jonoxia @joshcarpenter @twistedbydesign We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @jonoxia, @joshcarpenter, and @twistedbydesign a Tweet!",
+             });
+         });
+      
+            twttr.anywhere(function (T) {
+             T("#b0").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@zhenshuofang @limi @brampitoyo We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @zhenshuofang, @limi, and @brampitoyo a Tweet!",
+             });
+         });
+      
          twttr.anywhere(function (T) {
              T("#b1").tweetBox({
                  height: 100,
@@ -139,16 +184,16 @@
              T("#b3").tweetBox({
                  height: 100,
                  width: 400,
-                 defaultContent: "@paulrouget @codepo8 @mozilla We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
-                 label: "Send @paulrouget, @codepo8, & @mozilla a Tweet!",
+                 defaultContent: "@paulrouget @MozillaUX @mozilla We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @paulrouget, @MozillaUX, & @mozilla a Tweet!",
              });
          });
          twttr.anywhere(function (T) {
              T("#b4").tweetBox({
                  height: 100,
                  width: 400,
-                 defaultContent: "@opera @divya @ruari @Aeyoun We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
-                 label: "Send @opera, @divya, @ruari, & @Aeyoun a Tweet!",
+                 defaultContent: "@opera @ruari @Aeyoun We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @opera, @ruari, & @Aeyoun a Tweet!",
              });
          });
          twttr.anywhere(function (T) {
@@ -205,6 +250,6 @@ $(function () {
            
       </script>
       <script src="http://apis.google.com/js/plusone.js"></script>
-      <script src="http://eire-media.com/linkdump/?js"></script>
+      <script src="http://stats.higg.in/?js"></script>
    </body>
 </html>
