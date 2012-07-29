@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style>
+body{
+background:url(bliss.jpg)
+}
+</style>
+		
+		<title>ChromeKit</title>
+
+		
+
+		
+		<script type="text/javascript" charset="utf-8" src="mootools.js"></script>
+		<script type="text/javascript" charset="utf-8" src="chromekit.js"></script>
+		<script type="text/javascript" charset="utf-8" src="gadget.js"></script>
+		<script type="text/javascript" charset="utf-8" src="window.js"></script>
+		<script type="text/javascript" charset="utf-8" src="manager.js"></script>
+		<script type="text/javascript" charset="utf-8" src="overlay.js"></script>
+		
+
+		<script type="text/javascript" charset="utf-8" src="fx.matrix.js"></script>
+		<script type="text/javascript" charset="utf-8" src="manager.expose.js"></script>
+		
+
+		<script type="text/javascript" charset="utf-8" src="manager.flip.3d.js"></script>
+		<script type="text/javascript" charset="utf-8" src="demo.js"></script>
+		
+		
+	
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body class="chrome">
+
+<div class="ff" id="ff" onclick="openCC()"></div>
+
+<script>
+
+function openFF(){
+document.getElementById('ff').style.visibility = 'visible'
+}
+function openCC(){
+document.getElementById('ss').style.visibility = 'visible';
+Demo.initialize()
+}
+</script>
+
+<div class="icon" onclick="openFF()"></div>
+
+
+<div id="ss" style="visibility:hidden;display:none">
+
+<div class="window-manager"><div style="z-index: 501;" class="window widget " id="window-1">
+
+
+			<div class="titlebar">
+				<h1>Chromeless Window - With Custom UI</h1>
+
+				<ul class="controls">
+					<li><a href="#" class="button-close">x</a></li>
+					<li><a href="#" class="button-minimize">-</a></li>
+					<li><a href="#" class="button-maximize">+</a></li>
+				</ul>				
+			</div>
+			
+			<div class="body">
+				<p><img src="helper.png"/></p>
+			</div>
+			
+			
+			
+
+			<div class="footer"></div>
+		<span class="gripper-resize"></span></div></div>
+
+	</div>
+</body>
+</html>

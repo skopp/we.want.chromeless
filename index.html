@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="EN">
+   <head>
+      <meta charset="utf-8" />
+      <title>We Want Chromeless. Let's Make The Web a More Beautiful Place</title>
+      <link rel="stylesheet" href="css.css" media="screen" />
+   </head>
+   <body id="home">
+      <div class="grid"></div>
+      <header role="banner">
+         <div class="c">
+            <div class="col_12">
+            </div>
+         </div>
+      </header>
+      <div id="content">
+         <article role="main">
+            <div class="c">
+               <header class="col_12">
+                  <h1 class="banner"><img src="http://api.cld.me/HWDG/download/wwc.svg" /></h1>
+               </header>
+               <div class="col_12">
+                  <p class="intro">Chromeless windows make the internet a more beautiful place.</p>
+               </div>
+               <section id="main-areas">
+                  <header class="col_12" style="display: none;">
+                  </header>
+                  <div class="col_4">
+                     <h3>What are Chromeless Windows?</h3>
+                     <p>Chromeless windows <em>differ</em> from <i>fullscreen</i> Windows in that they can be resized, and a new UI can be built on top of them according to the site designer's wishes.</p>
+                     <p>Chromeless Windows are like normal browser windows, however everything is removed from the surrounding area of the page. These include toolbars, menubars, close buttons, or any other embellishments the browser vendor has decided to include by default.</p>
+                  </div>
+                  <div class="col_4">
+                     <h3>Why do we need Chromeless Windows?</h3>
+                     <p>Wouldn't it be great if the power of CSS3 / JS could enable a designer / developer to customize how a browser window looks? Imagine the freedom of expression allowed for a designer / coder who is not limited to a simple viewport encased within a cumbersome looking "Chrome" based window? Currently we have a fullscreen (JavaScript) API in Firefox. Why not go the extra mile, and implement a Chromeless Window feature too?</p>
+                  </div>
+                  <div class="col_4">
+                     <h3>What's the purpose of this page?</h3>
+                     <p>Currently there is no such implementation for Chromeless Windows that exists right now in any browser right now. With a little persuasion, hopefully we can, as a design / developer community, get the browser vendors to implement Chromeless. This page aims to help with that. Scroll down to see a mockup demonstration of what a Chromeless window is, and how it might look if implemented.</p>
+                  </div>
+               </section>
+               <div class="demo">
+                  <video controls width="100%" preload="none" poster="http://i.higg.in/video/toolset.projects.jpg">
+<source src="http://i.higg.in/video/wwc.mp4" type="video/mp4">
+<source src="http://i.higg.in/video/wwc.webm" type="video/webm">
+<source src="http://i.higg.in/video/wwc.ogv" type="video/ogg">
+<a target="_blank" href="http://www.youtube.com/watch?v=ythItZ_WvOc">
+<img src="http://i.higg.in/video/wwc.jpg" width="500">
+</a>
+</video>
+<br>
+<a href="http://i.higg.in/video/wwc.mp4">Download MP4</a><br>
+<a href="http://www.youtube.com/watch?v=ythItZ_WvOc">Watch on Youtube</a>
+               </div>
+               <div class="writeup">
+                  <h2>More reading:</h2>
+                  <p>
+                     <b>Security:</b><br />
+                     Before <a href="http://johndyer.name/native-fullscreen-javascript-api-plus-jquery-plugin/">Fullscreen</a> got launched, there was a heated discussion on the possible security implications of Fullscreen. Couldn't attacker X just mimic a fake browser window, <a href="http://www.cvedetails.com/cve/CVE-2001-1410/">simulate a bank's login screen</a> (address bar et al), and steal login info? Phishing does the exact same thing, but the URL is always cunningly disguised as the real URL. For example: http://bankofamerica.com.87654321.com/login.do. With an exact replica of the Operating System, as-well, as a browser mockup, it can be quite possible to mimic the real URL, so all the user sees is http://bankofamerica.com/login.do.
+                  </p>
+                  <p>
+                     <b>Putting the user in control:</b><br />
+                     When fullscreen got launched, obviously the Mozilla team <a href="https://wiki.mozilla.org/Security/Reviews/Firefox10/CodeEditor/FullScreenAPI">did their homework</a>. Firstly, the user <i>knows very well</i> they're entering fullscreen mode (via a very well placed message). As-well as this, the user always has to "click", or otherwise activate Fullscreen through a button. Click-jacking, however is out of the question with Fullscreen. (I've tried it). You can't fire-up Fullscreen by emulating a click. So with this in mind, Chromeless Windows should adapt the same pattern.
+                  </p>
+                  <p>
+                     <b>A history of chromless:</b><br />
+                     Chromeless windows are not new. Infact when IE6 got launched, Fullscreen APIs were already implemented in it. (These were known as <i>Kiosk Mode</i> windows). A very clever man named <a href="http://microbians.com/">Gabriel Suchowolski</a> was the first to exploit this feature, and he created the world's first, entirely browser-based Chromeless window. There was even a site called <a href="http://web.archive.org/web/20060302193704/http://www.chromeless.org/">chromeless.org</a> that showcased other people's variations of the hack. It was achieved by making a window fullscreen, and then resizing it. Any extra functionality, including dragging the window, resizing it, etc was all done with JS, and CSS.
+                  </p>
+                  <p>
+                     <b>Possible modern day Workarounds / hacks</b><br />
+                     We can create Chromeless windows relatively easy these days with Firefox Extensions, however the aim of this project is to persuade the browser vendors to enable this behavior by default, and have Chromeless functionality 'baked in' to the browser. We talk fervently about building Web Applications for the web without realizing what an Application is. An Application should give full control to the designer who builds it, as-well as the user. I agree with Remy Sharp when he says in <a href="http://blip.tv/jsconf/jsconf2012-remy-sharp-6142746">this talk</a>, that we should "make our apps more appy".
+                  </p>
+               </div>
+               <p>
+                  <br /><br />
+               <center>
+                  <span class="active">&#9733; Get Involved &#9733;</span>
+               </center>
+               </p>
+               <p>
+                  This page is here to help the design / developer community achieve the dream of a Chromeless Web. Below is an array of noteworthy people / Twitter accounts who you can contact directly through this page. Twitter was chosen as it has worked well in <a href="http://www.thenational.ae/news/uae-news/facebook-and-twitter-key-to-arab-spring-uprisings-report">these kinds of things</a> in the past. Get your Twitter on, and let's help build a better, more beautiful web.
+               </p>
+               <div class="boxes">
+                  <p>
+                  <div id="b8" class="box"></div>
+                  <br />
+                  <div id="b1" class="box"></div>
+                  <br />
+                  <div id="b2" class="box"></div>
+                  <br />
+                  <div id="b3" class="box"></div>
+                  <br />
+                  <div id="b4" class="box"></div>
+                  <br />
+                  <div id="b5" class="box"></div>
+                  <br />
+                  <div id="b6" class="box"></div>
+                  <br />
+                  <div id="b7" class="box"></div>
+                  <br />
+                  <div class="social"></div>
+                  </p>
+               </div>
+            </div>
+         </article>
+         <div class="clear"></div>
+      </div>
+      <footer id="global-footer">
+         <div class="c">
+            <section class="col_12">
+            
+            <a href="http://higg.in/"><img src="slimmer.gif"></a>
+            
+               <p>Created by <a href="http://davidhiggins.me/">David Higgins</a></p>
+            </section>
+         </div>
+      </footer>
+      <script src="http://platform.twitter.com/anywhere.js?id=wH5ZQRgbGuejqjQQLuSQ&v=1"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script src="jquery.addsocial.js"></script>
+      <script>
+         twttr.anywhere(function (T) {
+             T("#b1").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@mozhacks @mozlabs @firefox We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @mozhacks, @mozlabs, and @firefox a Tweet!",
+             });
+         });
+         twttr.anywhere(function (T) {
+             T("#b2").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@ChromiumDev @paul_irish @petele @ebidel We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @ChromiumDev @paul_irish @petele @ebidel a Tweet!",
+             });
+         });
+         twttr.anywhere(function (T) {
+             T("#b3").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@paulrouget @codepo8 @mozilla We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @paulrouget, @codepo8, & @mozilla a Tweet!",
+             });
+         });
+         twttr.anywhere(function (T) {
+             T("#b4").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@opera @divya @ruari @Aeyoun We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @opera, @divya, @ruari, & @Aeyoun a Tweet!",
+             });
+         });
+         twttr.anywhere(function (T) {
+             T("#b5").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@whatwg @w3c @html5 We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @whatwg, @w3c, & @html5 a Tweet!",
+             });
+         });
+         twttr.anywhere(function (T) {
+             T("#b6").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@smashingmag @chriscoyier @envatowebdev We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @smashingmag, @chriscoyier, & @envatowebdev a Tweet!",
+             });
+         });
+         twttr.anywhere(function (T) {
+             T("#b7").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "@mahemoff @beriberikix @igrigorik We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send @mahemoff, @beriberikix, & @igrigorik a Tweet!",
+             });
+         });
+         twttr.anywhere(function (T) {
+             T("#b8").tweetBox({
+                 height: 100,
+                 width: 400,
+                 defaultContent: "We Want Chromeless. http://iwantaneff.in/chromeless/ #chromeless",
+                 label: "Send a general Purpose tweet advocating Chromeless",
+             });
+         });
+         
+$(function () {
+
+    $(".social").addSocial();
+
+    $('a').each(function () {
+        var a = new RegExp('/' + window.location.host + '/');
+        if (!a.test(this.href)) {
+            $(this).click(function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                window.open(this.href, '_blank');
+            });
+        }
+    });
+
+
+});
+         
+           
+      </script>
+      <script src="http://apis.google.com/js/plusone.js"></script>
+      <script src="http://eire-media.com/linkdump/?js"></script>
+   </body>
+</html>
