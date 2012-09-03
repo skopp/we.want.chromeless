@@ -1,4 +1,9 @@
 ----------
+
+![alt text][1]
+
+  [1]: http://api.cld.me/HWDG/download/wwc.svg
+
 ## The Source-Code of IWANTANEFF.in/chromeless (We Want Chromeless)
 
 ###  Chromeless Windows Make the Internet a More Beautiful Place .
