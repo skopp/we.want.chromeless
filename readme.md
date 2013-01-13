@@ -6,7 +6,9 @@
 
 ## The Source-Code of IWANTANEFF.in/chromeless (We Want Chromeless)
 
-###  Chromeless Windows Make the Internet a More Beautiful Place .
+###  Chromeless Windows Make the Internet a More Beautiful Place.
+
+[![Foo](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/977802/We-Want-Chromeless)
 
 Author: [David Higgins][1]
 
